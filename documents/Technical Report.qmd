@@ -2,8 +2,12 @@
 title: "Final Technical Report"
 author: "Hannah Pawig"
 format:
-  pdf:
+  pdf: default
   elsevier-pdf:
+    journal:
+      name: "STAT 365"
     keep-tex: true
 editor: visual
 ---
+
+## 1.3 Data and Methods
