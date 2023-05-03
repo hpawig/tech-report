@@ -5,8 +5,8 @@
 library(tidyverse)
 library(forcats)
 
-# let pi_w = proportion of success for wet method
-# pi_d = proportion of success for dry method
+# let p_wet = proportion of success for wet method
+# p_dry = proportion of success for dry method
 
 # creating analysis data set from raw data
 pong_test <- pong
@@ -30,6 +30,9 @@ prop.table <- pong_test |>
   group_by(method) |> 
   summarise(accuracy = mean(success)) #taking the mean of a dummy variable gives a prop
 
+
+# creating objects to use in the prop.test
+
 # 50 trials were run for each method
 num_shots <- c(50,50)
 
@@ -37,7 +40,7 @@ num_shots <- c(50,50)
 p_dry <- 0.38
 p_wet <- 0.38
 
-#vector of both proportions 
+# vector of both proportions 
 two_props <- c(p_dry, p_wet)
 
 
