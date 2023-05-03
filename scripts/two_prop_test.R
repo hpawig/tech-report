@@ -28,7 +28,7 @@ pong_test <- pong_test |>
 # finding number of successes and failures for each method
 prop.table <- pong_test |> 
   group_by(method) |> 
-  summarise(accuracy = mean(success)) #taking the mean of a dummy variable gives a prop
+  summarise(successes = sum(success)) #summing a binary variable gives count of successes
 
 
 # creating objects to use in the prop.test
@@ -36,16 +36,14 @@ prop.table <- pong_test |>
 # 50 trials were run for each method
 num_shots <- c(50,50)
 
-# storing the proportions
-p_dry <- 0.38
-p_wet <- 0.38
+success_dry <- 19
+success_wet <- 19
 
 # vector of both proportions 
-two_props <- c(p_dry, p_wet)
+two_counts <- c(success_dry, success_wet)
 
 
 
 # running a two-sided 2 proportion test
-prop.test(x = two_props, n = num_shots, 
+prop.test(x = two_counts, n = num_shots, 
           alternative='two.sided', conf.level = 0.95)
-
