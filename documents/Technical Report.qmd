@@ -12,7 +12,7 @@ editor: visual
 
 ## 1.3 Data and Methods
 
-To determine if a player\'s ping pong shot accuracy is affected when dipping the ball in water before their shot into a cup, I will complete trials that simulate a game of Cup Pong, with either a completely dry ball or a method of dunking the ball and shaking excess water off before each shot a participant takes. This experiment will attempt investigate if the shot accuracy when using a ball that has been dunked in water differs from the shot accuracy when using a dry ball in Cup Pong.
+To determine if a player's ping pong shot accuracy is affected when dipping the ball in water before their shot into a cup, I will complete trials that simulate a game of Cup Pong, with either a completely dry ball or a method of dunking the ball and shaking excess water off before each shot a participant takes. This experiment will attempt investigate if the shot accuracy when using a ball that has been dunked in water differs from the shot accuracy when using a dry ball in Cup Pong.
 
 The sample size of this experiment is 100 shot attempts to make it into the cup, all attempts by a single participant: the researcher, Hannah Pawig. Data was recorded and collected in Microsoft Excel (Version 16.71) by the researcher between each 2 attempts.
 
