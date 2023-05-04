@@ -4,6 +4,8 @@
 # loading in packages
 library(tidyverse)
 library(forcats)
+library(kableExtra)
+library(scales)
 
 # let p_wet = proportion of success for wet method
 # p_dry = proportion of success for dry method
@@ -21,9 +23,39 @@ pong_test <- pong_test |>
        which_cup = as.factor(which_cup),
        which_cup = fct_recode(.f = which_cup,
                                None = "0"))
+mylabel <- label_percent(scale = 100, suffix = "%")
+
+# creating a summary table
+pong_summary_table <- pong_test |> 
+  mutate(
+    method = fct_recode(.f = method,
+                        "Dry" = "D",
+                        "Wet" = "W")) |> 
+  group_by(method) |> 
+  summarise(total.attempts = n(),
+            frequency = sum(success),
+            pct = mean(success)) |> 
+  mutate(
+    pct = mylabel(pct)
+  )
 
 
 
+# outputting a pretty version of pong_summary_table
+pong_summary_table |>
+  kbl(caption = "<center>Table 1:<br>
+                <center>Frequencies and Percentages of 
+                  Successful Shots by Cup Pong Method",
+      format = "html",
+      col.names = 
+        c("Method", "Total Attempts", "Count of Success", "Percentage Made (%)"),
+      align = "cccr") |> 
+  kable_classic(full_width = F,  html_font = "Source Sans Pro") |> 
+  kable_styling(bootstrap_options = "striped")
+
+
+
+# ANALYSIS
 
 # finding number of successes and failures for each method
 prop.table <- pong_test |> 
