@@ -20,6 +20,6 @@ I used Microsoft Excel to record data in between each 2 trials (Excel Version 16
 
 The analysis was carried out in statistical software R, using a two-sided 2 proportion z-test (R version 4.3.0). I created a *trials* variable into the analysis data set as an identifier for each trial, which gave each observation the corresponding trial number based on occurrence during the experiment. I also converted the *which_cup* and *method* variables from numeric to factor variables. I did this in order to relabel the "0" cup level in *which_cup* into a level named "None" and to use *method* as a grouping variable.
 
-#### Diagram 1 --- Cup Formation
+![](table1.png){.table fig-align="center"}
 
-Diagram will appear here.
+![Cup Formation](diagram1.png){fig-align="center" width="525"}
