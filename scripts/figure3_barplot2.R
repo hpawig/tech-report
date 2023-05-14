@@ -47,3 +47,8 @@ pong_overall_counts |>
            color = "white", size = 3) +
   annotate("text", x = 1.35, y = 98, color = 'lightgrey', size = 3, label = "Failures") +
   scale_y_continuous(breaks = c(0,25,38,50,75,100))
+
+
+# saving plot as png
+ggsave(filename = "barplot_overall_success.png",
+       path = "/Users/hannahpawig/Desktop/STAT 365 Report/tech_report/results")

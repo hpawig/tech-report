@@ -1,6 +1,7 @@
 library(tidyverse)
 library(ggtext)
 
+
 # make sure to read in data from the file, reading_raw_data.R 
 # then run the R script two_prop_test.R 
 
@@ -42,6 +43,7 @@ pong_counts |>
   theme(axis.title.y = element_blank(),
         axis.title.x = element_text(size = 8))
 
+ggsave("barplot_by_method.png", path = "/Users/hannahpawig/Desktop/STAT 365 Report/tech_report/results")
 
 
 
