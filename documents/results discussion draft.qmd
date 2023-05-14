@@ -1,0 +1,25 @@
+---
+title: "Results and Discussion Draft"
+format: pdf
+editor: visual
+---
+
+## 1.4 Results and Discussion
+
+### *1.4.1 Results*
+
+Of the 100 total shot attempts, the ball successfully went into the cup 38% of the time (Figure 2). Overall in the experiment, I had a shot accuracy of 38%, disregarding shot method. However, when considering shot method, the proportion of times in which the shot was successful when using the dunk (wet ball) method was far from significant (p = 1.00, n = 100).
+
+![](images/barplot_overall_success.png){.figure fig-align="center"}
+
+Out of 50 attempts, the dunk method resulted in 19 successful times where the ball landed in one of the ten cups. The same results occurred with the dry ball method, and is visually depicted in Figure 3. As stated before from the results of the two proportion t-test, there is a severe lack of statistical significance between each play method.
+
+![](images/barplot_by_method-01.png){.figure fig-align="center"}
+
+### *1.4.2 Discussion*
+
+The results observed from the experiment suggest that the dunk playing method has no improving effect on my performance while attempting to throw ping pong balls into a cup in Cup Pong. The results show no significance of the dunk method; these results are other than what I expected, as though I believed that my performance in the experiment would at the least differ between play styles. This is because I have been exposed to the pre-existing notion that dunking the ball in water improves performance.
+
+Therefore, when I participate in Cup Pong using the dunk ball method, my shot accuracy is not enhanced more-so than when I use the default dry ball method. This was a randomized experiment, and so we may consider these results to lead us to a cause-and-effect, or lack thereof, relationship between play method and my shot accuracy. Additionally, the experiment was a *simulated* game of Cup Pong that has similar structure but most importantly not identical. Thus, my accuracy may be affected in a real game of Cup Pong, which involves removing cups as the game continues with each successful shot.
+
+It is crucial we also evaluate these results keeping in mind that I, the researcher, was the only participant in the Cup Pong simulation. We are unable to consider these results in the scope of any other college students, but we may hope so in the future. This experiment alone at the least starts the conversation in the importance of the decision of play method in a game such as this, or other games which involve landing ping pong balls into cups of water. Moreover, my role in this experiment as both the data collector and participant limits the potential of this particular study insofar as we cannot see a wider range of variation in subjects with varying degrees of Cup Pong experience or ability that could depict a better, more informative result regarding the effect of the wet ball "dunk" method. I have hopes that a future experiment and analysis could collect data on a large number of various students to see if college students play better using the "dunk" method, and even make the experiment structured more closely to the traditional one of Cup Pong. Future experiments may even test whether liquids other than water have some effect in shot accuracy in this game, by running the experimental Cup Pong trials with the cups filled with other liquids such as soda or beer. In this way, there is hopes of significant findings that consider more than one factor and can more confidently be applicable to true Cup Pong games.

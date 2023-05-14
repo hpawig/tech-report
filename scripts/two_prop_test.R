@@ -73,10 +73,11 @@ success_dry <- 19
 success_wet <- 19
 
 # vector of both proportions 
-two_counts <- c(success_dry, success_wet)
+two_counts <- c(success_wet, success_dry)
 
 
 
 # running a two-sided 2 proportion test
 prop.test(x = two_counts, n = num_shots, 
-          alternative='two.sided', conf.level = 0.95)
+          alternative='greater', conf.level = 0.95)
+
