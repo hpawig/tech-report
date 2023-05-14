@@ -23,6 +23,7 @@ pong_test <- pong_test |>
        which_cup = as.factor(which_cup),
        which_cup = fct_recode(.f = which_cup,
                                None = "0"))
+
 mylabel <- label_percent(scale = 100, suffix = "%")
 
 # creating a summary table

@@ -23,3 +23,9 @@ The analysis was carried out in statistical software R, using a two-sided 2 prop
 ![](table1.png){.table fig-align="center"}
 
 ![Cup Formation](diagram1.png){fig-align="center" width="525"}
+
+## 1.4 Results and Discussion
+
+### *1.4.1 Effect of Play Method*
+
+Of the 100 total shot attempts, the ball successfully went into the cup 38% of the time (Table 2).
