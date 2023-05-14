@@ -30,11 +30,11 @@ The analysis was carried out in statistical software R, using a one-sided 2 prop
 
 Of the 100 total shot attempts, the ball successfully went into the cup 38% of the time (Figure 2). Overall in the experiment, I had a shot accuracy of 38%, disregarding shot method. However, when considering shot method, the proportion of times in which the shot was successful when using the dunk (wet ball) method was far from significant (p = 1.00, n = 100).
 
-![](images/barplot_overall_success.png){fig-align="center"}
+![](images/barplot_overall_success-04.png){fig-align="center"}
 
 Out of 50 attempts, the dunk method resulted in 19 successful times where the ball landed in one of the ten cups. The same results occurred with the dry ball method, and is visually depicted in Figure 3. As stated before from the results of the two proportion t-test, there is a severe lack of statistical significance between each play method.
 
-![](images/barplot_by_method-01.png){fig-align="center"}
+![](images/barplot_by_method-04.png){fig-align="center"}
 
 ### *1.4.2 Discussion*
 
