@@ -9,17 +9,17 @@ author: "Hannah Pawig"
 
 ### *1.4.1 Results*
 
-Of the 100 total shot attempts, the ball successfully went into the cup 38% of the time (Figure 2). Overall in the experiment, I had a shot accuracy of 38%, disregarding shot method. However, when considering shot method, the proportion of times in which the shot was successful when using the dunk (wet ball) method was far from significant (p = 1.00, n = 100).
+Of the 100 total shot attempts, the ball successfully went into the cup 38% of the time (Figure 2). Overall in the experiment, I had a shot accuracy of 38%, disregarding shot method. However, when considering shot method, the proportion of times in which the shot was successful when using the dunk (wet ball) method versus that of the dry ball method was far from significant (z-stat = 0, p = 1.00, n = 100).
 
 ![](images/barplot_overall_success-03.png){.figure fig-align="center"}
 
-Out of 50 attempts, the dunk method resulted in 19 successful times where the ball landed in one of the ten cups. The same results occurred with the dry ball method, and is visually depicted in Figure 3. As stated before from the results of the two proportion t-test, there is a severe lack of statistical significance between each play method.
+Out of 50 attempts, the dunk method resulted in 19 successful times where the ball landed in one of the ten cups. The same results occurred with the dry ball method, and is visually depicted in Figure 3. As stated before from the results of the two proportion z-test, there is a severe lack of statistical significance between each play method.
 
 ![](images/barplot_by_method-03.png){.figure fig-align="center"}
 
 ### *1.4.2 Discussion*
 
-The results observed from the experiment suggest that the dunk playing method has no improving effect on my performance while attempting to throw ping pong balls into a cup in Cup Pong. The results show no significance of the dunk method; these results are other than what I expected, as though I believed that my performance in the experiment would at the least differ between play styles. This is because I have been exposed to the pre-existing notion that dunking the ball in water improves performance.
+The results observed from the experiment suggest that the dunk playing method has no improving effect on my performance while attempting to throw ping pong balls into a cup in Cup Pong. The results show practically no significance of the dunk method; these results are other than what I expected, as though I believed that my performance in the experiment would at the least differ between play styles. What is most surprising were the resulting shot accuracy for each play method turning out to be exactly the same in this completely randomized and controlled experiment. This may be more of a shock in my own perspective because I have been exposed to the pre-existing notion that dunking the ball in water improves performance and thus implies a better shot accurancy.
 
 Therefore, when I participate in Cup Pong using the dunk ball method, my shot accuracy is not enhanced more-so than when I use the default dry ball method. This was a randomized experiment, and so we may consider these results to lead us to a cause-and-effect, or lack thereof, relationship between play method and my shot accuracy. Additionally, the experiment was a *simulated* game of Cup Pong that has similar structure but most importantly not identical. Thus, my accuracy may be affected in a real game of Cup Pong, which involves removing cups as the game continues with each successful shot.
 
