@@ -33,15 +33,15 @@ pong_overall_counts |>
            position = "stack") +
   labs(title = "Figure 2: Overall Successes of the 100 Shot Attempts",
        subtitle = "Successes with the 
-       <span style='color:darkgreen'>Dunk <span style='color:darkgreen'>Method 
+       <span style='color:#1E88E5'>Dunk <span style='color:#1E88E5'>Method 
        <span style='color:black'>and
-        <span style='color:limegreen'>Dry <span style='color:limegreen'>Ball Method") +
+        <span style='color:#FFC107'>Dry <span style='color:#FFC107'>Ball Method") +
   theme(axis.title = element_blank(),
         axis.text.x = element_blank(),
         axis.ticks.x = element_blank(),
         plot.subtitle = element_markdown(),
         legend.position = "none") +
-  scale_fill_manual(values = c('gray48', 'darkgreen','limegreen')) +
+  scale_fill_manual(values = c('gray48', '#1E88E5','#FFC107')) +
   annotate("text", x = .75, y = 36, 
            label = "Total Successes (38)",
            color = "white", size = 3) +

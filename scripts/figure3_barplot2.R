@@ -1,6 +1,6 @@
 library(tidyverse)
 library(ggtext)
-
+library(here)
 
 # make sure to read in data from the file, reading_raw_data.R 
 # then run the R script two_prop_test.R 
@@ -30,20 +30,21 @@ pong_counts <- pong_test |>
 pong_counts |>
   mutate(
     shot_made = fct_recode(.f = shot_made,
-                           "Missed Shot" = "No",
-                           "Attempt Successful" = "Yes")) |> 
+                           "Shot Failure" = "No",
+                           "Shot Successful" = "Yes")) |> 
   ggplot(mapping = aes(x = method,
                        fill = shot_made)) +
   geom_bar(stat = "count") +
   labs(title = "Figure 3: Breakdown of Shot Attempts",
-       subtitle = "For Each Playing Method",
+       subtitle = "Between Dry and Wet Playing Methods",
        x = "Playing Method") +
   scale_fill_manual(guide_legend(title = "Attempt Status"),
-                    values = c('firebrick','salmon')) +
+                    values = c('#DC3220','#005AB5')) +
   theme(axis.title.y = element_blank(),
         axis.title.x = element_text(size = 8))
 
-ggsave("barplot_by_method.png", path = "/Users/hannahpawig/Desktop/STAT 365 Report/tech_report/results")
+ggsave("barplot_by_method.png",
+       path = "/Users/hannahpawig/Desktop/STAT 365 Report/tech_report/results")
 
 
 
