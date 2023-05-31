@@ -30,8 +30,8 @@ pong_counts <- pong_test |>
 pong_counts |>
   mutate(
     shot_made = fct_recode(.f = shot_made,
-                           "Shot Failure" = "No",
-                           "Shot Successful" = "Yes")) |> 
+                           "Failed Attempt" = "No",
+                           "Successful Attempt" = "Yes")) |> 
   ggplot(mapping = aes(x = method,
                        fill = shot_made)) +
   geom_bar(stat = "count") +
