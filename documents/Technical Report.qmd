@@ -6,7 +6,19 @@ format:
 editor: visual
 ---
 
-## 1.3 Data and Methods
+## 1.1 *Abstract*
+
+*\"Cup Pong\" is a game played with two ping pong balls and 10 disposable plastic cups filled halfway with water, placed in a triangle formation on two sides of an 8 foot table so that there are 20 cups total. There are two teams on each end of the table and teams can be either one or two players. Each take two shot attempts with their ping pong balls to get their ball into the cups in formation at the other end of the table where their opponents stand, alternating each turn. Whichever team makes it to 10 successful shots into all the opponent\'s cups wins the game. Players are often seen dunking the ball in a cup in front of them and shaking off excess water before attempting their shot. This experiment investigated whether or not this described play style increases a player\'s shot accuracy in Pong. Contrary to popular belief among Pong players, there was no significant evidence to support that the dunk method is superior to the dry ball method. The experiment questions the commonly accepted notion surrounding the dunk method and its origins as a recognized play style in Pong.*
+
+## 1.2 *Introduction*
+
+Whether were ever a fan of parties, have preferred smaller gatherings, or even stayed in on Friday nights, surely you have heard of the game "Pong," also referred to as "Beer Pong." Since text messaging is so popular, you may even have played or seen GamePigeon's pocket version of the game, "Cup Pong," which is compatible with Apple's iOS iMessage. In the case you have never heard of the game and its variations, Pong involves two opposing players, or teams of two, that take turns in tossing ping pong balls into their designated ten half filled cups of water (or beer, for Beer Pong) that start out in a triangular formation, in order to be the team that makes it into every cup first. The cup formations sit on both ends of a long 8 foot table, and each team must shoot their ping pong balls into the cups that are directly in front of where the opponent stands. Standard rules of the game include having two shots per turn and allowing any shot which makes it into one cup count as a successful shot, and whichever cup it is made in is removed at the end of that turn.
+
+There are three main methods of shooting the ping pong ball into the cup: the default throw with a dry ping pong ball, a bounce shot also with a dry ball, and a throw with a wet ball---a playing method that involves dunking the ping pong ball into water and shaking excess off before tossing. The main focus of this study is to compare the two tossing methods, one with a dry ball and the other with a wet. Many Pong players dunk their ball before each shot, confident that it improves their chances of landing the shot. This pre-conceived notion has no known origin My experiment will assess whether this "dunk method" has positive effects on performance in a game such as Pong through a comparison of the shooting accuracy between each play style. The intended outcome of this project is to spark a discussion on a belief passed around among young adults that has no previous scientific reasoning. Despite the strategy\'s unknown origins and lack of scientific studies to support it, the dunk method is commonly used across generations of Pong players as an advantageous playing method.
+
+In this report, I will describe the experiment's detailed process and structure and the means of the statistical analysis with its results. At the end there will be a discussion of my thoughts on the experiment's results, with a conclusion which determines what the study has to say about the dunk method to being the better Pong play style.
+
+## 1.3 *Data and Methods*
 
 To determine if a player's ping shot accuracy is better when dipping the ball in water before their shot into a cup, I will complete trials that simulate a game of Pong, with either a completely dry ball or a method of dunking the ball and shaking excess water off before each shot a participant takes. This experiment will investigate if the shot accuracy when using a ball that has been dunked in water is greater than the shot accuracy when using a dry ball in Pong.
 
@@ -24,7 +36,7 @@ With the statistical software R, I used a one-sided 2 proportion z-test to condu
 
 ![Cup Formation](diagram1.png){fig-align="center" width="525"}
 
-## 1.4 Results and Discussion
+## 1.4 *Results and Discussion*
 
 ### *1.4.1 Results*
 
@@ -34,7 +46,7 @@ Of the 100 total shot attempts, the ball successfully went into the cup 38% of t
 
 Out of 50 attempts, the dunk method resulted in 19 successful times where the ball landed in one of the ten cups. The same results occurred with the dry ball method, and is visually depicted in Figure 3. As stated before from the results of the two proportion z-test, there is a severe lack of statistical significance between each play method.
 
-![](images/barplot_by_method-03.png){fig-align="center"}
+![](images/barplot_by_method-04.png){fig-align="center"}
 
 ### *1.4.2 Discussion*
 
@@ -43,3 +55,9 @@ The results observed from the experiment suggest that the dunk playing method ha
 Therefore, when I participate in Pong using the dunk ball method, my shot accuracy is not enhanced more-so than when I use the default dry ball method. This was a randomized experiment, and so we may consider these results to lead us to a cause-and-effect, or lack thereof, relationship between play method and my shot accuracy. Additionally, the experiment was a *simulated* game of Pong that has similar structure but most importantly not identical. Thus, my accuracy may be affected in a real game of Pong, which involves removing cups as the game continues with each successful shot.
 
 It is crucial we also evaluate these results keeping in mind that I, the researcher, was the only participant in the Pong simulation. We are unable to consider these results in the scope of any other college students, but we may hope so in the future. This experiment alone at the least starts the conversation in the importance of the decision of play method in a game such as this, or other games which involve landing ping balls into cups of water. Moreover, my role in this experiment as both the data collector and participant limits the potential of this particular study insofar as we cannot see a wider range of variation in subjects with varying degrees of Pong experience or ability that could depict a better, more informative result regarding the effect of the wet ball "dunk" method. I have hopes that a future experiment and analysis could collect data on a large number of various students to see if college students play better using the "dunk" method, and even make the experiment structured more closely to the traditional one of Pong. Future experiments may even test whether liquids other than water have some effect in shot accuracy in this game, by running the experimental Pong trials with the cups filled with other liquids such as soda or beer. In this way, there is hopes of significant findings that consider more than one factor and can more confidently be applicable to true Pong games.
+
+## 1.5 *Conclusion*
+
+As seen through the report, this Pong experiment cannot lead us to believe that the Pong dunk method improves my accuracy when tossing the ball into the cups. Considering this study, which has minimized outside disruption through the controlled environment and experimental design, I have yet to see results that will affirm the belief that a wet ball causes me a better Pong player in terms of shot accuracy. For my own ability, I can surely based on my results say there is no effect on my shot accuracy due to the randomized aspect of this experiment. Since I was the only participant of this experiment, we cannot make any conclusions about the dunk method's effect on shot accuracy for other college-aged players, which is the larger demographic of Pong players.
+
+As discussed previously, I would hope to see a Pong experiment that replicates closer the real game of Pong and uses a larger sample of participants to have applicable results that decide whether the dunk method has any positive effect on game performance or not. Due to my experiment's contrasting results to the popular belief surrounding this dunk method, I have come to challenge the widespread notion that it is better to play Pong with a ping pong ball that has been wet, at least for my own abilities. This leads me to question why Pong players believe that wetting the ball makes for a more accurate shot, whether it be finding its origin or discover if it was some rumor that turned into something of a placebo effect in the world of Pong. Unbeknownst to me there are no previously documented origins of the dunk method and its rumored advantageous quality. I wonder where it came from and how it was so easily spread among Pong players, so much so that it became something of unquestioned popular belief.
