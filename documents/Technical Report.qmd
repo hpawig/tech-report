@@ -34,17 +34,17 @@ With the statistical software R and the tidyverse package, I used a one-sided 2 
 
 ![](table1.png){.table fig-align="center"}
 
-![Cup Formation](diagram1.png){fig-align="center" width="525"}
+![Experiment Set Up with Cup Formation (Perspective from above).](Cup%20Diagram-1-edited.png){fig-align="center"}
 
 ## *3.* *Results*
 
 Of the 100 total shot attempts, the ball successfully went into the cup 38% of the time, disregarding shot method (Figure 2). When considering shot method, using the dunk (wet ball) method resulted in a 19% shot accuracy, which was far from significant, using a 5% significance level (z-stat = 0, p = 0.5, n = 100). The 95% confidence interval for the mean difference proportions of success of each play method was (-0.16, 1.00). This interval includes that the value the mean difference in proportions is 0, which leads us to fail to reject the null hypothesis. Thus we cannot conclude that using the dunk method improves shot accuracy.
 
-![](images/barplot_overall_success.png){fig-align="center"}
+![](images/barplot_overall_success-01.png)
 
 Out of 50 attempts, the dunk method resulted in 19 successful times where the ball landed in one of the ten cups. The same results occurred with the dry ball method, and is visually depicted in Figure 3. As stated before from the results of the two proportion z-test, there is a severe lack of statistical significance between each play method.
 
-![](images/barplot_by_method-04.png){fig-align="center"}
+![](images/barplot_by_method-05.png)
 
 ## *4. Discussion*
 
@@ -56,7 +56,7 @@ It is crucial we also evaluate these results keeping in mind that I, the researc
 
 ## *5.* *Conclusion*
 
-As seen through the report, this Pong experiment cannot lead us to believe that the Pong dunk method improves my accuracy when tossing the ball into the cups. Considering this study, which has minimized outside disruption through the controlled environment and experimental design, I have yet to see results that will affirm the belief that a wet ball causes me a better Pong player in terms of shot accuracy. For my own ability, I can surely based on my results say there is no effect on my shot accuracy due to the randomized aspect of this experiment. Since I was the only participant of this experiment, we cannot make any conclusions about the dunk method's effect on shot accuracy for other college-aged players, which is the larger demographic of Pong players.
+As seen through the report, this Pong experiment cannot lead us to believe that the Pong dunk method improves my accuracy when tossing the ball into the cups. The purpose of this study was to determine if the dunk method has a positive effect on my tossing accuracy into cups, however the results of the experiment were not able to conclude that the dunk method is superior to using the dry ball method. I investigated this query by setting up a randomized experiment where I attempted to land 100 ping pong balls into water-filled cups, the randomized component being the random order in which I used either the wet ball (dunk) method or the dry ball method. Considering this study, which has minimized outside disruption through the controlled environment and experimental design, I have yet to see results that will affirm the belief that a wet ball causes me a better Pong player in terms of shot accuracy. For my own ability, I can surely based on my results say there is no effect on my shot accuracy due to the randomized aspect of this experiment. Since I was the only participant of this experiment, we cannot make any conclusions about the dunk method's effect on shot accuracy for other college-aged players, which is the larger demographic of Pong players.
 
 As discussed previously, I would hope to see a Pong experiment that replicates closer the real game of Pong and uses a larger sample of participants to have applicable results that decide whether the dunk method has any positive effect on game performance or not. Due to my experiment's contrasting results to the popular belief surrounding this dunk method, I have come to challenge the widespread notion that it is better to play Pong with a ping pong ball that has been wet, at least for my own abilities. My own personal ability and prior experience with Pong cannot be used as the average player's ability in this game. This furthermore supports the fact that there is no general conclusion for all Pong players, or even college-aged Pong players.
 
@@ -64,13 +64,13 @@ This leads me to question why Pong players believe that wetting the ball makes f
 
 ## *References*
 
-1.  Chen, E. (2016, December 6). *10 Tips & Tricks to Playing Beer Pong Like a Boss*. Society19. Retrieved May 31, 2023, from https://www.society19.com/tips-tricks-to-playing-beer-pong-like-a-boss/.
+1.  Chen, E. (2016, December 6). *10 Tips & Tricks to Playing Beer Pong Like a Boss*. Society19. Retrieved May 31, 2023, from <https://www.society19.com/tips-tricks-to-playing-beer-pong-like-a-boss/>.
 2.  Microsoft Corporation. (2018). *Microsoft Excel*.
-3.  R Core Team (2023). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
+3.  R Core Team (2023). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL <https://www.R-project.org/>.
 4.  Wickham H, Averick M, Bryan J, Chang W, McGowan LD, François R, Grolemund G, Hayes A, Henry L, Hester J, Kuhn M, Pedersen TL, Miller E, Bache SM, Müller K, Ooms J, Robinson D, Seidel DP, Spinu V, Takahashi K, Vaughan D, Wilke C, Woo K, Yutani H (2019). "Welcome to the tidyverse." *Journal of Open Source Software*, **4**(43), 1686. [doi:10.21105/joss.01686](https://doi.org/10.21105/joss.01686).
-5.  Bhabha, L. (2013, December 27). *The History of Beer Pong*. Insider. Retrieved May 31, 2023, from https://www.businessinsider.com/the-history-of-beer-pong-2013-12#:\~:text=In%20its%20original%20form%2C%20the,began%20aiming%20for%20the%20cups.
-6.  Nichols, D. (n.d.). *Coloring for Colorblindness*. Davidmathlogic.com. Retrieved May 31, 2023, from https://davidmathlogic.com/colorblind/#%23005AB5-%23DC3220
-7.  *Two-Proportions Z-Test in R*. Statistical Tools for High-Throughput Data Analysis. Retrieved May 31, 2023, from http://www.sthda.com/english/wiki/two-proportions-z-test-in-r#case-of-large-sample-sizes
+5.  Bhabha, L. (2013, December 27). *The History of Beer Pong*. Insider. Retrieved May 31, 2023, from <https://www.businessinsider.com/the-history-of-beer-pong-2013-12#:~:text=In%20its%20original%20form%2C%20the,began%20aiming%20for%20the%20cups>.
+6.  Nichols, D. (n.d.). *Coloring for Colorblindness*. Davidmathlogic.com. Retrieved May 31, 2023, from <https://davidmathlogic.com/colorblind/#%23005AB5-%23DC3220>.
+7.  *Two-Proportions Z-Test in R*. Statistical Tools for High-Throughput Data Analysis. Retrieved May 31, 2023, from <http://www.sthda.com/english/wiki/two-proportions-z-test-in-r#case-of-large-sample-sizes>.
 
 ## *Appendix*
 
