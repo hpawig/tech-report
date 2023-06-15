@@ -37,11 +37,16 @@ pong_counts |>
   geom_bar(stat = "count") +
   labs(title = "Figure 3: Breakdown of Shot Attempts",
        subtitle = "Between Dry and Wet Playing Methods",
-       x = "Playing Method") +
+       x = "Playing Method",
+       caption = "A segmented barplot showing the failed and successful attempts within each method type.
+       Each method had 50 total shot attempts (total n = 100).") +
   scale_fill_manual(guide_legend(title = "Attempt Status"),
                     values = c('#DC3220','#005AB5')) +
   theme(axis.title.y = element_blank(),
-        axis.title.x = element_text(size = 8))
+        axis.title.x = element_text(size = 8),
+        plot.caption = element_text(hjust = 1,
+                                    size = 7,
+                                    vjust = 0))
 
 ggsave("barplot_by_method.png",
        path = "/Users/hannahpawig/Desktop/STAT 365 Report/tech_report/results")

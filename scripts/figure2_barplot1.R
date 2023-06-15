@@ -33,15 +33,21 @@ pong_overall_counts |>
            position = "stack") +
   labs(title = "Figure 2: Overall Successes of the 100 Shot Attempts",
        subtitle = "Successes with the 
-       <span style='color:#1E88E5'>Dunk <span style='color:#1E88E5'>Method 
+       <span style='color:#005AB5'>Dunk <span style='color:#005AB5'>Method 
        <span style='color:black'>and
-        <span style='color:#FFC107'>Dry <span style='color:#FFC107'>Ball Method") +
+        <span style='color:#DC3220'>Dry <span style='color:#DC3220'>Ball Method",
+       caption = "Visual depiction of total successful vs. unsuccessful shots. 
+       The successful shot segment is split by the method type (Dunk or Dry ball).
+       38 of 100 total shot attempts successfully landed into a cup.") +
   theme(axis.title = element_blank(),
         axis.text.x = element_blank(),
         axis.ticks.x = element_blank(),
         plot.subtitle = element_markdown(),
-        legend.position = "none") +
-  scale_fill_manual(values = c('gray48', '#1E88E5','#FFC107')) +
+        legend.position = "none",
+        plot.caption = element_text(hjust = 1,
+                                    size = 7,
+                                    vjust = 0)) +
+  scale_fill_manual(values = c('gray48','#005AB5', '#DC3220')) +
   annotate("text", x = .75, y = 36, 
            label = "Total Successes (38)",
            color = "white", size = 3) +
