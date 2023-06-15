@@ -20,8 +20,9 @@ In the "documents" folder, there are various versions of figures and drafts, as 
 - The embedded "images" folder contains all versions of the figures that were input into the Quarto document, Technical Report.qmd.
 - The files Cup Diagram-1-edited.png and diagram1.png are the two versions of figure 1.
 - The introduction, conclusion, results, and discussion sections' drafts are located here (intro-concl-draft.qmd and results-discussion-draft.qmd)
-- The rendered version and Quarto document of the final report is found here (Technical Report.qmd, Technical-Report.pdf)
+- The rendered version and Quarto document of the body of the report is found here (Technical Report.qmd, Technical-Report.pdf) without the title page
 - Document reflecting on revisions made after report draft is found here (revisions.qmd)
+- The final report is the pdf, Final-Technical-Report-hpawig.pdf
 
 ## results
 In the "results" folder, we can find the final versions of Figure 2 (barplot_overall_success.png) and Figure 3 (barplot_by_method.png).
