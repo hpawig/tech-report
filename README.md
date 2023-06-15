@@ -18,7 +18,8 @@ In the "scripts" folder, you will find R scripts where I...
 ## documents
 In the "documents" folder, there are various versions of figures and drafts, as well as the final report with the final versions of the figures.
 - The embedded "images" folder contains all versions of the figures that were input into the Quarto document, Technical Report.qmd.
-- The files Cup Diagram-1-edited.png and diagram1.png are the two versions of figure 1.
+- The files Cup Diagram-1-edited.png and diagram1.png are the two versions of Figure 1.
+- Table 1 is located here (table1.png)
 - The introduction, conclusion, results, and discussion sections' drafts are located here (intro-concl-draft.qmd and results-discussion-draft.qmd)
 - The rendered version and Quarto document of the body of the report is found here (Technical Report.qmd, Technical-Report.pdf) without the title page
 - Document reflecting on revisions made after report draft is found here (revisions.qmd)
