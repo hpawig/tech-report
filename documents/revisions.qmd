@@ -1,0 +1,8 @@
+---
+title: "Revisions"
+author: "Hannah Pawig"
+format: pdf
+editor: visual
+---
+
+Revisions were made after a draft report was submitted. First, I edited the heading numbers to organize better the paper's structure. I split up the Results and Discussion section into separate sections. Appendix's reference list was compiled with the "Additional Documentation" section. Hyperlinks were added to all of the references as well for accessibility. Section 2 (Data and Methods) was edited to reword statistical jargon. Then, the conclusion was edited to make sure that the research question was mentioned again and how the experiment answered the question. I added captions to Figures 2 and 3, making sure that captions were descriptive and also that color schemes were consistent throughout by changing the color scheme of Figure 2 to match Figure 3. I edited the Cup Diagram (Figure 1), to make it more descriptive visually and add in the caption. I deleted an empty redundant folder, "STAT 365 Final Report", in the "tech_report" folder which contains the Rproject that this report was conducted in. I attempted to create a title page with a quarto extension, but ended up deleting the extension. Lastly, I added my university, course, title, and date to the report title page, by uploading the rendered pdf from Technical Report.qmd into Word, and creating a title page.

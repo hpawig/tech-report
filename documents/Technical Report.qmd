@@ -1,8 +1,6 @@
 ---
-title: "Final Technical Report"
-author: "Hannah Pawig"
-format:
-  pdf: default
+title: ""
+format: pdf
 editor: visual
 ---
 
